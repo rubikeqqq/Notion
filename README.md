@@ -1,0 +1,2 @@
+# Notion
+Learning for self
