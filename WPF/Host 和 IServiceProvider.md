@@ -548,4 +548,4 @@ public static IServiceProvider Services => AppHost.Services;
 如果你还想继续往下接，可以把这篇和下面两篇连起来看：
 
 * `CSharp/依赖注入.md`：先打基础，理解服务注册、生命周期和容器解析。
-* `WPF/CommunityToolkit/依赖注入项目骨架.md`：再看一个更接近实战项目结构的 WPF 写法。
+* `WPF/CommunityToolkit/14-依赖注入项目骨架.md`：再看一个更接近实战项目结构的 WPF 写法。

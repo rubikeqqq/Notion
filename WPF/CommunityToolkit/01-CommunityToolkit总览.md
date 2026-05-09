@@ -4,20 +4,20 @@
 
 如果只看学习顺序，可以先这样理解：
 
-1. ObservableObject：属性通知基础；
-2. ObservableProperty：自动生成可通知属性；
-3. RelayCommand 特性：自动生成命令；
-4. AsyncRelayCommand 和 RelayCommand：同步命令、异步命令的具体使用；
-5. WeakReferenceMessenger：跨模块消息通信；
-6. ObservableRecipient：带消息能力的 ViewModel 基类。
-7. 属性联动通知：属性刷新和命令状态刷新的专项用法。
-8. 登录模块完整案例：把属性、命令、消息机制串成一套。
-9. Messenger 多窗口、多页面通信案例：消息机制在桌面程序中的落地方式。
-10. CommunityToolkit 和传统手写 MVVM 对比：帮助判断什么时候该用 Toolkit。
-11. DataContext、ViewModelLocator 和 Toolkit 配合：解决 View 和 ViewModel 怎么接起来。
-12. 常见坑和排错清单：快速定位“为什么不工作”。
-13. Frame 导航、Page 和 Toolkit 配合：解决多页面导航场景下的组织问题。
-14. 依赖注入项目骨架：把 Toolkit 和 DI 组合成更像正式项目的结构。
+1. 02-CommunityToolkit与传统手写MVVM对比：先建立整体认知；
+2. 03-ObservableObject：属性通知基础；
+3. 04-ObservableProperty：自动生成可通知属性；
+4. 05-属性联动通知：属性刷新和命令状态刷新的专项用法；
+5. 06-RelayCommand特性：自动生成命令；
+6. 07-AsyncRelayCommand：同步命令、异步命令的具体使用；
+7. 08-WeakReferenceMessenger：跨模块消息通信；
+8. 09-ObservableRecipient：带消息能力的 ViewModel 基类；
+9. 10-DataContext和ViewModelLocator配合：解决 View 和 ViewModel 怎么接起来；
+10. 11-登录模块完整案例：把属性、命令、消息机制串成一套；
+11. 12-Messenger多窗口多页面通信案例：消息机制在桌面程序中的落地方式；
+12. 13-Frame导航和Page配合：解决多页面导航场景下的组织问题；
+13. 14-依赖注入项目骨架：把 Toolkit 和 DI 组合成更像正式项目的结构；
+14. 15-常见坑和排错清单：最后用于快速定位“为什么不工作”。
 
 ## 一、各篇笔记分别讲什么
 
@@ -32,7 +32,7 @@
 
 适合在这里开始读：
 
-[ObservableObject](WPF/CommunityToolkit/ObservableObject.md)
+[03-ObservableObject](WPF/CommunityToolkit/03-ObservableObject.md)
 
 ### 2. ObservableProperty
 
@@ -45,7 +45,7 @@
 
 适合在这里继续读：
 
-[ObservableProperty](WPF/CommunityToolkit/ObservableProperty.md)
+[04-ObservableProperty](WPF/CommunityToolkit/04-ObservableProperty.md)
 
 ### 3. RelayCommand 特性
 
@@ -56,7 +56,7 @@
 * 参数命令和 CanExecute；
 * 和 ObservableProperty 如何联动。
 
-[RelayCommand特性](WPF/CommunityToolkit/RelayCommand特性.md)
+[06-RelayCommand特性](WPF/CommunityToolkit/06-RelayCommand特性.md)
 
 ### 4. AsyncRelayCommand 和 RelayCommand
 
@@ -67,7 +67,7 @@
 * 实际项目中的登录和刷新列表示例；
 * PasswordBox 和异步命令如何配合。
 
-[AsyncRelayCommand](WPF/CommunityToolkit/AsyncRelayCommand.md)
+[07-AsyncRelayCommand](WPF/CommunityToolkit/07-AsyncRelayCommand.md)
 
 ### 5. WeakReferenceMessenger
 
@@ -78,7 +78,7 @@
 * 登录成功、主题切换这类广播场景怎么做；
 * 消息机制和直接依赖的边界怎么划分。
 
-[WeakReferenceMessenger](WPF/CommunityToolkit/WeakReferenceMessenger.md)
+[08-WeakReferenceMessenger](WPF/CommunityToolkit/08-WeakReferenceMessenger.md)
 
 ### 6. ObservableRecipient
 
@@ -88,7 +88,7 @@
 * IsActive、OnActivated、OnDeactivated；
 * 如何把消息机制和 ViewModel 生命周期结合起来。
 
-[ObservableRecipient](WPF/CommunityToolkit/ObservableRecipient.md)
+[09-ObservableRecipient](WPF/CommunityToolkit/09-ObservableRecipient.md)
 
 ### 7. 属性联动通知
 
@@ -99,7 +99,7 @@
 * 属性联动和命令联动怎么写得更清晰；
 * 什么时候该用特性，什么时候该手动通知。
 
-[属性联动通知](WPF/CommunityToolkit/属性联动通知.md)
+[05-属性联动通知](WPF/CommunityToolkit/05-属性联动通知.md)
 
 ### 8. 登录模块完整案例
 
@@ -110,7 +110,7 @@
 * 登录成功后如何广播并更新主界面；
 * 一个实际 ViewModel 应该怎么拆职责。
 
-[登录模块完整案例](WPF/CommunityToolkit/登录模块完整案例.md)
+[11-登录模块完整案例](WPF/CommunityToolkit/11-登录模块完整案例.md)
 
 ### 9. Messenger 多窗口、多页面通信案例
 
@@ -121,7 +121,7 @@
 * 多个接收方如何同时响应同一条消息；
 * 生命周期应该怎么配合消息注册。
 
-[Messenger多窗口多页面通信案例](WPF/CommunityToolkit/Messenger多窗口多页面通信案例.md)
+[12-Messenger多窗口多页面通信案例](WPF/CommunityToolkit/12-Messenger多窗口多页面通信案例.md)
 
 ### 10. CommunityToolkit 和传统手写 MVVM 对比
 
@@ -132,7 +132,7 @@
 * 手写模式还有哪些优势；
 * 什么时候适合迁移，什么时候不一定要迁移。
 
-[CommunityToolkit与传统手写MVVM对比](WPF/CommunityToolkit/CommunityToolkit与传统手写MVVM对比.md)
+[02-CommunityToolkit与传统手写MVVM对比](WPF/CommunityToolkit/02-CommunityToolkit与传统手写MVVM对比.md)
 
 ### 11. DataContext、ViewModelLocator 和 Toolkit 配合
 
@@ -143,7 +143,7 @@
 * UserControl 最常见的上下文覆盖问题；
 * ViewModel 如何真正交给 View。
 
-[DataContext和ViewModelLocator配合](WPF/CommunityToolkit/DataContext和ViewModelLocator配合.md)
+[10-DataContext和ViewModelLocator配合](WPF/CommunityToolkit/10-DataContext和ViewModelLocator配合.md)
 
 ### 12. 常见坑和排错清单
 
@@ -154,7 +154,7 @@
 * Messenger 为什么收不到消息；
 * 源生成器、命名、DataContext 覆盖等高频坑怎么排。
 
-[常见坑和排错清单](WPF/CommunityToolkit/常见坑和排错清单.md)
+[15-常见坑和排错清单](WPF/CommunityToolkit/15-常见坑和排错清单.md)
 
 ### 13. Frame 导航、Page 和 Toolkit 配合
 
@@ -165,7 +165,7 @@
 * 导航服务应该放在哪层；
 * 导航页使用 Messenger 时要注意什么。
 
-[Frame导航和Page配合](WPF/CommunityToolkit/Frame导航和Page配合.md)
+[13-Frame导航和Page配合](WPF/CommunityToolkit/13-Frame导航和Page配合.md)
 
 ### 14. 依赖注入项目骨架
 
@@ -176,7 +176,7 @@
 * 生命周期怎么大致选；
 * Toolkit 和 DI 为什么适合一起用。
 
-[依赖注入项目骨架](WPF/CommunityToolkit/依赖注入项目骨架.md)
+[14-依赖注入项目骨架](WPF/CommunityToolkit/14-依赖注入项目骨架.md)
 
 ## 二、如果按项目实践理解，可以这样分层
 
@@ -212,20 +212,20 @@
 
 如果你是第一次系统接触 CommunityToolkit.Mvvm，建议按下面顺序看：
 
-1. [ObservableObject](WPF/CommunityToolkit/ObservableObject.md)
-2. [ObservableProperty](WPF/CommunityToolkit/ObservableProperty.md)
-3. [属性联动通知](WPF/CommunityToolkit/属性联动通知.md)
-4. [RelayCommand特性](WPF/CommunityToolkit/RelayCommand特性.md)
-5. [AsyncRelayCommand](WPF/CommunityToolkit/AsyncRelayCommand.md)
-6. [WeakReferenceMessenger](WPF/CommunityToolkit/WeakReferenceMessenger.md)
-7. [ObservableRecipient](WPF/CommunityToolkit/ObservableRecipient.md)
-8. [登录模块完整案例](WPF/CommunityToolkit/登录模块完整案例.md)
-9. [Messenger多窗口多页面通信案例](WPF/CommunityToolkit/Messenger多窗口多页面通信案例.md)
-10. [CommunityToolkit与传统手写MVVM对比](WPF/CommunityToolkit/CommunityToolkit与传统手写MVVM对比.md)
-11. [DataContext和ViewModelLocator配合](WPF/CommunityToolkit/DataContext和ViewModelLocator配合.md)
-12. [常见坑和排错清单](WPF/CommunityToolkit/常见坑和排错清单.md)
-13. [Frame导航和Page配合](WPF/CommunityToolkit/Frame导航和Page配合.md)
-14. [依赖注入项目骨架](WPF/CommunityToolkit/依赖注入项目骨架.md)
+1. [02-CommunityToolkit与传统手写MVVM对比](WPF/CommunityToolkit/02-CommunityToolkit与传统手写MVVM对比.md)
+2. [03-ObservableObject](WPF/CommunityToolkit/03-ObservableObject.md)
+3. [04-ObservableProperty](WPF/CommunityToolkit/04-ObservableProperty.md)
+4. [05-属性联动通知](WPF/CommunityToolkit/05-属性联动通知.md)
+5. [06-RelayCommand特性](WPF/CommunityToolkit/06-RelayCommand特性.md)
+6. [07-AsyncRelayCommand](WPF/CommunityToolkit/07-AsyncRelayCommand.md)
+7. [08-WeakReferenceMessenger](WPF/CommunityToolkit/08-WeakReferenceMessenger.md)
+8. [09-ObservableRecipient](WPF/CommunityToolkit/09-ObservableRecipient.md)
+9. [10-DataContext和ViewModelLocator配合](WPF/CommunityToolkit/10-DataContext和ViewModelLocator配合.md)
+10. [11-登录模块完整案例](WPF/CommunityToolkit/11-登录模块完整案例.md)
+11. [12-Messenger多窗口多页面通信案例](WPF/CommunityToolkit/12-Messenger多窗口多页面通信案例.md)
+12. [13-Frame导航和Page配合](WPF/CommunityToolkit/13-Frame导航和Page配合.md)
+13. [14-依赖注入项目骨架](WPF/CommunityToolkit/14-依赖注入项目骨架.md)
+14. [15-常见坑和排错清单](WPF/CommunityToolkit/15-常见坑和排错清单.md)
 
 这样顺序更自然，因为它基本符合从简单到复杂、从单页到跨模块的学习路径。
 
