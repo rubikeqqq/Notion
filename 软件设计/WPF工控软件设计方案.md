@@ -1,10 +1,10 @@
-WPF 工控软件设计方案
+# WPF 工控软件设计方案
 
-### 1. 项目概述
+## 1. 项目概述
 
 本方案旨在设计并开发一套基于 WPF (Windows Presentation Foundation) 的工控上位机软件。该软件负责与现场 PLC、传感器、执行机构等工业设备进行通信，实现数据采集、实时监控、设备控制、报警管理、历史数据存储与查询、报表生成等功能，为操作人员提供直观、高效的操作界面。
 
-### 2. 开发步骤
+## 2. 开发步骤
 
 1. 需求分析与定义：
    - 明确软件功能需求（数据点列表、控制方式、报警规则、报表内容等）。
@@ -84,7 +84,7 @@ WPF 工控软件设计方案
    - 编写用户手册和技术文档。
    - 制定维护计划。
 
-### 3. 软件构成
+## 3. 软件构成
 
 - **主应用程序 (.exe)：** WPF 可执行文件。
 - **配置文件 (.xml, .json, .config)：** 存储系统设置、通信参数、标签点配置等。
@@ -92,7 +92,7 @@ WPF 工控软件设计方案
 - **第三方库 DLL：** 如通信驱动库、UI 组件库、数据库访问库等。
 - **资源文件：** 图片、图标、语言包、报表模板等。
 
-### 4. 软件框架 (MVVM 示例)
+## 4. 软件框架 (MVVM 示例)
 
 ```sql
 +--------------------+       +------------------------+       +-----------------+
@@ -110,9 +110,7 @@ WPF 工控软件设计方案
 +--------------------+       +------------------------+       +-----------------+
 ```
 
-
-
-### 5. 依赖组件
+## 5. 依赖组件
 
 - **.NET Runtime:** .NET Framework (4.6.1+) 或 .NET Core/5/6/7+ Runtime。
 - **WPF Libraries:**`PresentationCore`, `PresentationFramework`, `WindowsBase` 等。
@@ -124,7 +122,7 @@ WPF 工控软件设计方案
 - **单元测试框架:**`MSTest`, `NUnit`, `xUnit` + `Moq` (或类似 Mock 框架)。
 - **第三方 UI 控件库 (可选):** DevExpress, Telerik, MahApps.Metro 等。
 
-### 6. 开发工具
+## 6. 开发工具
 
 - **IDE:** Visual Studio 2019/2022 (首选) 或 Rider。
 - **版本控制:** Git (GitHub, GitLab, Azure DevOps)。
@@ -133,7 +131,7 @@ WPF 工控软件设计方案
 - **UI 设计工具:** Blend for Visual Studio (可选)。
 - **安装程序制作:** Visual Studio Installer Projects extension, WiX Toolset, InstallShield, Advanced Installer。
 
-### 7. 流程图 (简化版)
+## 7. 流程图 (简化版)
 
 ```lua
 graph TD
@@ -156,11 +154,9 @@ graph TD
     L -->|是| O[存储历史数据点]
 ```
 
+## 8. 示例代码 (C# - 概念片段)
 
-
-### 8. 示例代码 (C# - 概念片段)
-
-**1. 标签点模型 (Model)**
+1 标签点模型 (Model)
 
 ```csharp
 public class Tag
@@ -177,9 +173,7 @@ public class Tag
 }
 ```
 
-
-
-**2. 通信服务接口 (Service)**
+2 通信服务接口 (Service)
 
 ```csharp
 public interface ICommunicationService
@@ -194,9 +188,7 @@ public interface ICommunicationService
 }
 ```
 
-
-
-**3. 视图模型 (ViewModel - 简化)**
+3 视图模型 (ViewModel - 简化)
 
 ```csharp
 public class MonitorViewModel : INotifyPropertyChanged
@@ -239,9 +231,7 @@ public class MonitorViewModel : INotifyPropertyChanged
 }
 ```
 
-
-
-**4. View (XAML - 数据绑定示例)**
+4 View (XAML - 数据绑定示例)
 
 ```markdown
  
@@ -254,8 +244,6 @@ public class MonitorViewModel : INotifyPropertyChanged
 
  
 ```
-
-
 
 **5. 主程序依赖注入配置 (App.xaml.cs 或 Startup)**
 
@@ -283,8 +271,6 @@ public partial class App : Application
     }
 }
 ```
-
-
 
 ### 9. 总结
 

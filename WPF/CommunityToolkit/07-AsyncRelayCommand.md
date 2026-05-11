@@ -101,13 +101,14 @@ public partial class MainViewModel : ObservableObject
  [NotifyCanExecuteChangedFor(nameof(DeleteCommand))]
  private bool hasSelection;
 
- public IRelayCommand DeleteCommand { get; }
+ //public IRelayCommand DeleteCommand { get; }
 
  public MainViewModel()
  {
-  DeleteCommand = new RelayCommand(Delete, CanDelete);
+  //DeleteCommand = new RelayCommand(Delete, CanDelete);
  }
 
+[RelayCommand(CanExecute = nameof(CanDelete))]
  private void Delete()
  {
  }

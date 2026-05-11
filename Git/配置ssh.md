@@ -26,7 +26,6 @@ ls
 ```
 
 如下图所示，则表明已经存在
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20210630110100210.png)
 如果存在，直接跳到第三步
 
 ##### 第二步：生成ssh key
@@ -50,14 +49,11 @@ cat id_rsa.pub
 ```
 
 如下图所示，复制该内容
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20210630110507976.png)
 
 ##### 第四步：Github账号上添加公钥
 
 进入Settings设置
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20210630110629268.png)
 添加ssh key，把刚才复制的内容粘贴上去保存即可
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20210630110838483.png?)
 
 ##### 第五步：验证是否设置成功
 
@@ -67,7 +63,6 @@ ssh -T git@github.com
 ```
 
 显示如下信息表明设置成功
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20210630111024188.png)
 设置成功后，即可不需要账号密码clone和push代码
 
 **注意之后在clone仓库的时候要使用ssh的url，而不是https！**
