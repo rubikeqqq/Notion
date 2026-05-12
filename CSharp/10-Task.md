@@ -24,7 +24,7 @@
 
 如果你现在更想先把 `Thread`、`ThreadPool`、`Task`、`async/await` 的整体关系看顺，再回来看这篇细节，可以先看：
 
-* [CSharp/08-Thread、ThreadPool、Task、async和await对比总览.md](08-Thread%E3%80%81ThreadPool%E3%80%81Task%E3%80%81async%E5%92%8Cawait%E5%AF%B9%E6%AF%94%E6%80%BB%E8%A7%88.md)
+* [CSharp/08-Thread、ThreadPool、Task、async和await对比总览.md](08-Thread、ThreadPool、Task、async和await对比总览.md)
 
 ---
 
@@ -43,7 +43,7 @@
 * 线程之间怎么同步；
 * 线程资源怎么管理。
 
-这类内容更偏底层，在 [CSharp/09-线程.md](09-%E7%BA%BF%E7%A8%8B.md) 里更适合展开。
+这类内容更偏底层，在 [CSharp/09-线程.md](09-线程.md) 里更适合展开。
 
 ### 2. ThreadPool 是线程复用池
 
@@ -845,7 +845,7 @@ await task.ConfigureAwait(false);
 * `AutoResetEvent`
 * `ThreadPool`
 
-那更适合继续看 [CSharp/09-线程.md](09-%E7%BA%BF%E7%A8%8B.md)。
+那更适合继续看 [CSharp/09-线程.md](09-线程.md)。
 
 可以把两篇理解成：
 

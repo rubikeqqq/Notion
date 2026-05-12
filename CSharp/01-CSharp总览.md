@@ -26,7 +26,7 @@
 
 适合在这里开始读：
 
-* [CSharp/02-常见基础类型与集合总览.md](02-%E5%B8%B8%E8%A7%81%E5%9F%BA%E7%A1%80%E7%B1%BB%E5%9E%8B%E4%B8%8E%E9%9B%86%E5%90%88%E6%80%BB%E8%A7%88.md)
+* [CSharp/02-常见基础类型与集合总览.md](02-常见基础类型与集合总览.md)
 
 ### 2. 值类型、引用类型、装箱拆箱
 
@@ -39,7 +39,7 @@
 
 适合在类型总览后继续读：
 
-* [CSharp/03-值类型、引用类型、装箱拆箱.md](03-%E5%80%BC%E7%B1%BB%E5%9E%8B%E3%80%81%E5%BC%95%E7%94%A8%E7%B1%BB%E5%9E%8B%E3%80%81%E8%A3%85%E7%AE%B1%E6%8B%86%E7%AE%B1.md)
+* [CSharp/03-值类型、引用类型、装箱拆箱.md](03-值类型、引用类型、装箱拆箱.md)
 
 ### 3. List、Dictionary、HashSet实战对比
 
@@ -52,7 +52,7 @@
 
 适合在类型总览后继续读：
 
-* [CSharp/04-List、Dictionary、HashSet实战对比.md](04-List%E3%80%81Dictionary%E3%80%81HashSet%E5%AE%9E%E6%88%98%E5%AF%B9%E6%AF%94.md)
+* [CSharp/04-List、Dictionary、HashSet实战对比.md](04-List、Dictionary、HashSet实战对比.md)
 
 ### 4. 文件相关
 
@@ -65,7 +65,7 @@
 
 适合在这里开始读：
 
-* [CSharp/05-文件相关.md](05-%E6%96%87%E4%BB%B6%E7%9B%B8%E5%85%B3.md)
+* [CSharp/05-文件相关.md](05-文件相关.md)
 
 ### 5. 依赖注入
 
@@ -79,7 +79,7 @@
 
 适合在这里继续读：
 
-* [CSharp/06-依赖注入.md](06-%E4%BE%9D%E8%B5%96%E6%B3%A8%E5%85%A5.md)
+* [CSharp/06-依赖注入.md](06-依赖注入.md)
 
 ### 6. 并发与异步总览
 
@@ -92,7 +92,7 @@
 
 适合先建立整体认知：
 
-* [CSharp/08-Thread、ThreadPool、Task、async和await对比总览.md](08-Thread%E3%80%81ThreadPool%E3%80%81Task%E3%80%81async%E5%92%8Cawait%E5%AF%B9%E6%AF%94%E6%80%BB%E8%A7%88.md)
+* [CSharp/08-Thread、ThreadPool、Task、async和await对比总览.md](08-Thread、ThreadPool、Task、async和await对比总览.md)
 
 ### 7. 线程
 
@@ -105,7 +105,7 @@
 
 适合在总览后深入：
 
-* [CSharp/09-线程.md](09-%E7%BA%BF%E7%A8%8B.md)
+* [CSharp/09-线程.md](09-线程.md)
 
 ### 8. Task
 
@@ -163,13 +163,13 @@
 
 如果你是第一次系统整理这组 C# 基础主题，建议按下面顺序看：
 
-1. [CSharp/02-常见基础类型与集合总览.md](02-%E5%B8%B8%E8%A7%81%E5%9F%BA%E7%A1%80%E7%B1%BB%E5%9E%8B%E4%B8%8E%E9%9B%86%E5%90%88%E6%80%BB%E8%A7%88.md)
-2. [CSharp/03-值类型、引用类型、装箱拆箱.md](03-%E5%80%BC%E7%B1%BB%E5%9E%8B%E3%80%81%E5%BC%95%E7%94%A8%E7%B1%BB%E5%9E%8B%E3%80%81%E8%A3%85%E7%AE%B1%E6%8B%86%E7%AE%B1.md)
-3. [CSharp/04-List、Dictionary、HashSet实战对比.md](04-List%E3%80%81Dictionary%E3%80%81HashSet%E5%AE%9E%E6%88%98%E5%AF%B9%E6%AF%94.md)
-4. [CSharp/05-文件相关.md](05-%E6%96%87%E4%BB%B6%E7%9B%B8%E5%85%B3.md)
-5. [CSharp/06-依赖注入.md](06-%E4%BE%9D%E8%B5%96%E6%B3%A8%E5%85%A5.md)
-6. [CSharp/08-Thread、ThreadPool、Task、async和await对比总览.md](08-Thread%E3%80%81ThreadPool%E3%80%81Task%E3%80%81async%E5%92%8Cawait%E5%AF%B9%E6%AF%94%E6%80%BB%E8%A7%88.md)
-7. [CSharp/09-线程.md](09-%E7%BA%BF%E7%A8%8B.md)
+1. [CSharp/02-常见基础类型与集合总览.md](02-常见基础类型与集合总览.md)
+2. [CSharp/03-值类型、引用类型、装箱拆箱.md](03-值类型、引用类型、装箱拆箱.md)
+3. [CSharp/04-List、Dictionary、HashSet实战对比.md](04-List、Dictionary、HashSet实战对比.md)
+4. [CSharp/05-文件相关.md](05-文件相关.md)
+5. [CSharp/06-依赖注入.md](06-依赖注入.md)
+6. [CSharp/08-Thread、ThreadPool、Task、async和await对比总览.md](08-Thread、ThreadPool、Task、async和await对比总览.md)
+7. [CSharp/09-线程.md](09-线程.md)
 8. [CSharp/10-Task.md](10-Task.md)
 
 这样看比较稳，因为顺序是：
@@ -184,13 +184,13 @@
 
 如果你当前遇到的是下面这些问题，可以直接跳转：
 
-* 不知道值类型、引用类型、数组、List、Dictionary、HashSet 该怎么选：看 [CSharp/02-常见基础类型与集合总览.md](02-%E5%B8%B8%E8%A7%81%E5%9F%BA%E7%A1%80%E7%B1%BB%E5%9E%8B%E4%B8%8E%E9%9B%86%E5%90%88%E6%80%BB%E8%A7%88.md)
-* 不清楚赋值、传参、装箱拆箱为什么会出现不同表现：看 [CSharp/03-值类型、引用类型、装箱拆箱.md](03-%E5%80%BC%E7%B1%BB%E5%9E%8B%E3%80%81%E5%BC%95%E7%94%A8%E7%B1%BB%E5%9E%8B%E3%80%81%E8%A3%85%E7%AE%B1%E6%8B%86%E7%AE%B1.md)
-* 不知道 `List<T>`、`Dictionary<TKey, TValue>`、`HashSet<T>` 实战里怎么选：看 [CSharp/04-List、Dictionary、HashSet实战对比.md](04-List%E3%80%81Dictionary%E3%80%81HashSet%E5%AE%9E%E6%88%98%E5%AF%B9%E6%AF%94.md)
-* 不知道怎么拼路径、找父目录、设置文件对话框筛选器：看 [CSharp/05-文件相关.md](05-%E6%96%87%E4%BB%B6%E7%9B%B8%E5%85%B3.md)
-* 不理解容器、注册、生命周期、构造函数自动注入：看 [CSharp/06-依赖注入.md](06-%E4%BE%9D%E8%B5%96%E6%B3%A8%E5%85%A5.md)
-* 不知道 `Thread`、`Task`、`await` 之间到底是什么关系：看 [CSharp/08-Thread、ThreadPool、Task、async和await对比总览.md](08-Thread%E3%80%81ThreadPool%E3%80%81Task%E3%80%81async%E5%92%8Cawait%E5%AF%B9%E6%AF%94%E6%80%BB%E8%A7%88.md)
-* 不知道怎么理解锁、原子操作、事件等待句柄、线程池：看 [CSharp/09-线程.md](09-%E7%BA%BF%E7%A8%8B.md)
+* 不知道值类型、引用类型、数组、List、Dictionary、HashSet 该怎么选：看 [CSharp/02-常见基础类型与集合总览.md](02-常见基础类型与集合总览.md)
+* 不清楚赋值、传参、装箱拆箱为什么会出现不同表现：看 [CSharp/03-值类型、引用类型、装箱拆箱.md](03-值类型、引用类型、装箱拆箱.md)
+* 不知道 `List<T>`、`Dictionary<TKey, TValue>`、`HashSet<T>` 实战里怎么选：看 [CSharp/04-List、Dictionary、HashSet实战对比.md](04-List、Dictionary、HashSet实战对比.md)
+* 不知道怎么拼路径、找父目录、设置文件对话框筛选器：看 [CSharp/05-文件相关.md](05-文件相关.md)
+* 不理解容器、注册、生命周期、构造函数自动注入：看 [CSharp/06-依赖注入.md](06-依赖注入.md)
+* 不知道 `Thread`、`Task`、`await` 之间到底是什么关系：看 [CSharp/08-Thread、ThreadPool、Task、async和await对比总览.md](08-Thread、ThreadPool、Task、async和await对比总览.md)
+* 不知道怎么理解锁、原子操作、事件等待句柄、线程池：看 [CSharp/09-线程.md](09-线程.md)
 * 不知道 `await` 做了什么、为什么 `Result` 容易卡、怎么取消任务：看 [CSharp/10-Task.md](10-Task.md)
 
 ## 五、总结

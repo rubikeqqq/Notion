@@ -15,7 +15,7 @@
 
 如果你看完总览后想继续往下拆细节，可以直接接这两篇：
 
-* [CSharp/09-线程.md](09-%E7%BA%BF%E7%A8%8B.md)：底层线程、同步原语、线程池
+* [CSharp/09-线程.md](09-线程.md)：底层线程、同步原语、线程池
 * [CSharp/10-Task.md](10-Task.md)：Task、async/await、任务组合与取消
 
 ---
@@ -502,7 +502,7 @@ public static async Task LoadAsync()
 如果你想把这组知识继续往下拆，可以按下面这个顺序看：
 
 1. 先看本文，建立全局视角；
-2. 再看 [CSharp/09-线程.md](09-%E7%BA%BF%E7%A8%8B.md)，理解底层线程与同步原语；
+2. 再看 [CSharp/09-线程.md](09-线程.md)，理解底层线程与同步原语；
 3. 再看 [CSharp/10-Task.md](10-Task.md)，理解高层异步模型与 `async/await`；
 4. 如果后面进入 WPF，再把这套理解带到异步命令、界面线程和数据加载场景里。
 
