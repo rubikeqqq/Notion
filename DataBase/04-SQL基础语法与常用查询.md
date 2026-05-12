@@ -123,7 +123,7 @@ ORDER BY TotalCount DESC;
 常用的聚合函数：
 
 | 函数 | 作用 | 适用 |
-|------|------|------|
+| ------ | ------ | ------ |
 | COUNT() | 计数 | 统计记录数 |
 | SUM() | 求和 | 数值列总和 |
 | AVG() | 求平均 | 数值列平均值 |
@@ -247,7 +247,7 @@ bulkCopy.WriteToServer(dataTable);
 ## 九、常用 SQL 速查
 
 | 场景 | SQL |
-|------|-----|
+| ------ | ----- |
 | 查最新 N 条记录 | `SELECT TOP 10 * FROM table ORDER BY time DESC` |
 | 按日期分组统计 | `GROUP BY CAST(time AS DATE)` |
 | 去掉重复数据 | `SELECT DISTINCT col FROM table` |

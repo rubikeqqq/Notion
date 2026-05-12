@@ -138,7 +138,7 @@ SQLite 的类型系统和 SQL Server / MySQL 不太一样。
 SQLite 只有 5 种存储类型（被称为存储类）：
 
 | 存储类 | 对应 .NET 类型 | 说明 |
-|--------|---------------|------|
+| -------- | --------------- | ------ |
 | INTEGER | int, long | 整型 |
 | REAL | float, double | 浮点型 |
 | TEXT | string | 字符串 |
